@@ -1,0 +1,15 @@
+Evaluation function for Question 1:
+
+1) To calculate function value I get the reciprocal of the closest distance of the food from the pacman position and multiply it by 10
+and add it to successorGameState.getScore().
+2) Then, I get the first ghost's position and if it's negative , multiple it's reciprocal by 10 and subtract it from 1.
+
+Evaluation function for Question 5:
+
+1) To calculate the function value I get the reciprocal of every ghost distance from pacman's postion and multiple it with a
+factor and depending on if it's scared time is positive or negative , add or subtract it from successorGameState.getScore().
+2) Then, I get the distance of the closest food from the pacman and add it to (1) after multiplying it with a factor of 10.
+
+Note:
+
+I spent 10 hours in doing the assignment.

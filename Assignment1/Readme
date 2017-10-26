@@ -1,0 +1,21 @@
+Heuristic for question 6:
+
+To calculate the heuristic value for any state I do the following steps:
+1) Calculate manhattan distance of the state from every corner
+2) Remove the corner giving the least manhattan distance from the list of corners and make it the next state
+3) Add the least manhattan distance to a variable "heuristicValue" which as initialized to 0
+4) Repeat this process until the corner list becomes empty.
+5) Return the heuristicValue
+6) Return zero if the state is one the corners.
+
+Heuristic for question 7:
+
+To calculate the heuristic value for any state I do the following steps:
+
+1) Calculate the maze distance of the state from every food position.
+2) Return the maze distance which gives the maximum distance from the state.
+3) Return zero if the state contains the food.
+
+Note:
+I spent 12-14 hours for the assignment.
+
